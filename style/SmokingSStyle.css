@@ -1,0 +1,201 @@
+body {
+  padding-top: 20px;
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+  border-top: 3px dashed #41023d;
+}
+
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+.navbar {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#eee));
+  background-image: -webkit-linear-gradient(top, #f7f7f7 0%, #eee 100%);
+  background-image: -o-linear-gradient(top, #f7f7f7 0%, #eee 100%);
+  background-image: linear-gradient(to bottom, #f7f7f7 0%, #eee 100%);
+  border: 1px solid #e5e5e5;
+}
+
+
+
+.card {
+  margin-top: 5px;
+}
+
+.svgmap {
+  /**background-image: url("../../assets/images/map.png");**/
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+circle {
+  fill: rgb(202, 24, 18);
+  stroke: #141C25;
+  stroke-width: 1;
+  cursor: pointer;
+}
+
+.circle-temporary {
+  fill: green;
+  /* Change this to the desired temporary color */
+}
+
+.label {
+  font-family: arial;
+  stroke: #ffffff;
+  cursor: pointer;
+}
+
+line {
+  stroke: #1E1E1E;
+  stroke-dasharray: 5, 3;
+  stroke-width: 5;
+  transition: 0.5s;
+}
+
+line.shortest {
+  stroke: blue;
+  stroke-dasharray: 5, 0;
+  stroke-width: 5;
+  box-shadow: 4px 5px 5px -1px rgba(0, 0, 0, 0.75);
+}
+
+line.shortesttwo {
+  stroke: rgb(255, 0, 0);
+  stroke-dasharray: 5, 0;
+  stroke-width: 5;
+  box-shadow: 4px 5px 5px -1px rgba(0, 0, 0, 0.75);
+}
+
+line.shortestthree {
+  stroke: rgb(32, 179, 3);
+  stroke-dasharray: 5, 0;
+  stroke-width: 5;
+  box-shadow: 4px 5px 5px -1px rgba(0, 0, 0, 0.75);
+}
+
+.line-label {
+  font-family: arial;
+  stroke: #000000;
+}
+
+
+
+
+.col-auto two {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+
+
+
+#timeone.time {
+  font-size: 25px;
+  color: blue;
+}
+
+#timetwo.time {
+  font-size: 25px;
+  color: red;
+}
+
+#projectname.nav-link {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+#madeby.btn {
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  cursor: pointer;
+}
+
+#rick.nav-link {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-style: normal;
+  color: black;
+}
+
+#timethree.time {
+  font-size: 25px;
+  color: rgb(9, 243, 204);
+}
+
+#timefour.time {
+  font-size: 25px;
+  color: rgb(160, 171, 221);
+}
+
+#timefive.time {
+  font-size: 25px;
+  color: rgb(228, 95, 255);
+}
+
+#timesix.time {
+  font-size: 25px;
+  color: rgb(239, 241, 88);
+}
+
+#timeseven.time {
+  font-size: 25px;
+  color: rgb(221, 37, 114);
+}
+
+
+
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 300px;
+  height: 500%;
+  -webkit-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0%, 0, 0);
+  -o-transform: translate3d(0%, 0, 0);
+  transform: translate3d(0%, 0, 0);
+  max-height: calc(100vh - 210px);
+  overflow-y: auto;
+}
+
+
+.modal.left.fade .modal-dialog {
+  left: 0px;
+  -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+  transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+
+/*Right*/
+.modal.right.fade .modal-dialog {
+  right: 0px;
+  -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+  transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+
+.modal.left.fade.in .modal-dialog {
+  left: 0;
+}
+
+.modal.right.fade.in .modal-dialog {
+  right: 0;
+}
