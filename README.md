@@ -3,3 +3,6 @@ The objective of this project is to illustrate the development of five convex al
 
  
 ![](https://github.com/ClawSwipe/Visualization-of-Five-Convex-Hull-Algorithms/blob/main/gif.gif)
+
+
+<sub>Modified from Fatih Sennek's Djikstra Visualization</sub>
